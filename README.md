@@ -26,7 +26,7 @@ Set up and run Ecomzy on your local machine by following these steps:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ecomzy.git
+git clone https://github.com/sachinsingh45/ecomzy.git
 ```
 ### 2. Navigate to the project directory:
 ```bash
