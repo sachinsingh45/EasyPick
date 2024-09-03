@@ -1,12 +1,13 @@
-# Ecomzy - Shop with Ease 🛒
+# EasyPick - Explore, Select, and Checkout with Ease 🛒
 
-Welcome to **Ecomzy**, your one-stop solution for a seamless shopping experience! With Ecomzy, navigating products and managing your cart is just a breeze. Let’s dive in!
+Welcome to **EasyPick**, your one-stop solution for a seamless shopping experience! With EasyPick, navigating products and managing your cart is just a breeze. Let’s dive in!
 
 ## 🛠️ Overview
 
-Ecomzy is a lightweight, user-friendly shopping cart application built with cutting-edge web technologies. It demonstrates the essential functionality of adding items to a cart, viewing them on a dedicated cart page, all while maintaining a sleek and modern interface.
+EasyPick is a lightweight, user-friendly shopping cart application built with cutting-edge web technologies. It demonstrates the essential functionality of adding items to a cart, viewing them on a dedicated cart page, all while maintaining a sleek and modern interface.
 
-![App Screenshot](https://github.com/user-attachments/assets/62b34064-e363-4d3b-ba1e-b6c7049657cf)
+![App Screenshot](https://github.com/user-attachments/assets/1a147416-bc59-4ab5-aef2-178911d2a6f3)
+
 
 ### 🔍 Features
 
@@ -21,16 +22,16 @@ Ecomzy is a lightweight, user-friendly shopping cart application built with cutt
 
 ## 🚀 Getting Started
 
-Set up and run Ecomzy on your local machine by following these steps:
+Set up and run EasyPick on your local machine by following these steps:
 
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/sachinsingh45/ecomzy.git
+git clone https://github.com/sachinsingh45/EasyPick.git
 ```
 ### 2. Navigate to the project directory:
 ```bash
-cd ecomzy
+cd EasyPick
 ```
 ### 3. Install dependencies:
 ```bash
@@ -60,4 +61,4 @@ For any inquiries or suggestions, please reach out to:
 
 - **GitHub:** sachinsingh45
 
-*Thank you for checking out Ecomzy! Happy shopping! 🎉*
+*Thank you for checking out EasyPick! Happy shopping! 🎉*
