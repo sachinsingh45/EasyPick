@@ -19,7 +19,7 @@ const Product = ({post}) => {
 
   return (
     <div className="flex flex-col items-center justify-between 
-    hover:scale-110 transition duration-300 ease-in gap-3 p-4 mt-10 ml-5 rounded-xl outline">
+    hover:shadow-lg hover:shadow-green-400 cursor-pointe transition duration-300 ease-in gap-3 p-4 mt-10 ml-5 rounded-xl outline">
       <div>
         <p className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">{post.title}</p>
       </div>
@@ -32,7 +32,7 @@ const Product = ({post}) => {
 
       <div className="flex justify-between gap-12 items-center w-full mt-5">
         <div>
-          <p className="text-green-600 font-semibold">${post.price}</p>
+          <p className="text-green-600 font-semibold">${post.price.toFixed(2)}</p>
         </div>
         
         {

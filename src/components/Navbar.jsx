@@ -1,6 +1,8 @@
 import {FaShoppingCart} from "react-icons/fa"
+import { FaHome } from 'react-icons/fa';
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+
 
 const Navbar = () => {
 
@@ -9,16 +11,13 @@ const Navbar = () => {
   return (
     <div >
       <nav className="flex justify-between items-center h-20 max-w-6xl mx-auto">
-
-        <NavLink to="/">
-          <div className="ml-5">
-          <img src="../logo.png" className="h-14"/>
-          </div>
+        <NavLink to="/" className="flex items-center ml-5 text-white hover:text-gray-300 transition-colors duration-300">
+        <img src="/logo.webp" alt="EasyPick Logo" className="h-14 w-auto mr-2 hidden md:block" />
+        <span className="text-2xl font-bold">EasyPick</span>
         </NavLink>
-
           <div className="flex items-center font-medium text-slate-100 mr-5 space-x-6">
             <NavLink to="/">
-              <p>Home</p>
+              <FaHome className="text-2xl"/>
             </NavLink>
 
             <NavLink to="/cart">
